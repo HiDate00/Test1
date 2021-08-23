@@ -72,12 +72,9 @@ h1 {
 }
 
 h2 {
-  /* background-color: white; */
-  font-family: 'Calligraffitti';
-  font-weight: bold;
-  /* font-family: 'Euphoria Script'; */
+  /* font-family: 'Baloo Tammudu 2', cursive; */
+  font-family: 'Raleway', sans-serif;
   font-size: 60px;
-  /* border: 1px solid #f1faee; */
   color:#FFCC00;
   display: flex;
   flex-wrap: wrap;
@@ -97,18 +94,92 @@ h3 {
 
 p {
   color: white;
-  font-size: 16px;
-  /* background-image: url('pictures/front.jpg'); */
+  font-size: 22px;
+  /* font-family: 'Baloo Tammudu 2', cursive; */
+  font-family: 'Raleway', sans-serif;
 }
 
+dl {
+  color: white;
+  font-size: 22px;
+  font-family: 'Raleway', sans-serif;
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+
+.flex-container {
+display: flex;
+align-items: justify; /* Use another value to see the result */
+width: 90%;
+height: 600px;
+margin: auto;
+}
+
+/* .flex-container > div { */
+/* width: 50%; */
+/* height: 600px; */
+/* margin: 15px; */
+/* border-radius: 3px; */
+/* background-color: #304c89; */
+/* } */
+
+.box1 {
+	width: 70%;
+	height: 600px;
+	margin: 15px;
+	border-radius: 3px;
+	background-color: #304c89;
+}
+
+.box1MorningBlue {
+	width: 70%;
+	height: 600px;
+	margin: 15px;
+	border-radius: 3px;
+	background-color: #7ba098;
+}
+
+.box2 {
+	width: 30%;
+	height: 600px;
+	margin: 15px;
+	border-radius: 3px;
+}
+
+.box3 {
+	width: 100%;
+	/* height: 80% */
+	/* height: 800px; */
+	margin: 15px;
+	border-radius: 3px;
+}
+
+.flex-container img {
+  width: 100%;
+  height: 600px;
+}
 
 .center {
   margin: auto;
-  width: 30%;
-  border: 3px solid #1d3557;
-  padding: 40px; 
   text-align: center;
 }
+
+.pbox {
+	margin-left: 150px;
+	width: 600px;
+}      
+/* .center { */
+  /* margin: auto; */
+  /* width: 30%; */
+  /* border: 3px solid #1d3557; */
+  /* padding: 40px;  */
+  /* text-align: center; */
+/* } */
 
 .left {
   margin: 0;
